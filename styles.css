@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #777;
+    margin: 5px 0;
+}
+
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#hangman-image {
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+#word {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#guesses {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#wrongGuesses {
+    color: red;
+}
+
+#message {
+    color: green;
+    margin-top: 10px;
+}
+
+#guessInput {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#submitButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: #45a049;
+}
+
+#restartButton {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    background-color: #d32f2f;
+}

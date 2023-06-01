@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Galgenmännchen</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>IT-Galgenmännchen</h1>
+        <img src="hangman_0.png" alt="Galgenmännchen" id="hangman-image">
+        <p>Rate das Wort:</p>
+        <p id="word"></p>
+        <p id="guesses">Falsche Versuche: <span id="wrongGuesses"></span></p>
+        <p id="message"></p>
+        <input type="text" id="guessInput">
+        <button id="submitButton" onclick="checkGuess()">Absenden</button>
+        <button id="restartButton" onclick="restartGame()">Neustart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
